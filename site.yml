@@ -1,0 +1,5 @@
+---
+# file: site.yml
+- hosts: all
+  roles:
+    - role_app_minecraft.yml
