@@ -1,5 +1,5 @@
 ---
 # file: site.yml
-- hosts: mc-01.gamezone.pussy-hosting.berlin
+- hosts: mc-02.gamezone.pussy-hosting.berlin
   roles:
     - role_app_minecraft
