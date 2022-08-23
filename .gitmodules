@@ -4,3 +4,6 @@
 [submodule "roles/role_app_nginx_letsencrypt_proxy"]
 	path = roles/role_app_nginx_letsencrypt_proxy
 	url = git@github.com:mdesaive/role_app_nginx_letsencrypt_proxy.git
+[submodule "roles/role_app_geyser"]
+	path = roles/role_app_geyser
+	url = git@github.com:mdesaive/role_app_geyser.git

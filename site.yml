@@ -1,8 +1,9 @@
 ---
 # file: site.yml
 - hosts:
-    - mc-king-01-ng.gamezone.pussy-hosting.berlin
-    - mc-king-02-ng.gamezone.pussy-hosting.berlin
+      - mc-king-01-ng.gamezone.pussy-hosting.berlin
+      - mc-king-02-ng.gamezone.pussy-hosting.berlin
   roles:
-    - role_app_minecraft
-    - role_app_nginx_letsencrypt_proxy
+      - role_app_minecraft
+      - role_app_geyser
+      # - role_app_nginx_letsencrypt_proxy
