@@ -1,58 +1,21 @@
 all:
   hosts:
-    mc-king-02-ng.gamezone.pussy-hosting.berlin:
+    mc-dev-01.gamezone.pussy-hosting.berlin:
         ansible_become: yes
-        mc_mem_start: 4G
-        mc_mem_max: 8G
+        mc_mem_start: 512M
+        mc_mem_max: 2G
         # mc_version: 1.19.2
         # mc_geyser_version: 1.18
-        mc_world_name: "mc-king-02-ng"
+        mc_world_name: "mc-dev-01"
         mc_secure_profile: False
-        mc_motd1: "MC King 2 - 2022"
-        mc_motd2: "Explore a new world in 2022."
-        mc_seed: "-6236200118392047259"
-        geyser_mem_start: 2G
-        geyser_mem_max: 4G
+        mc_motd1: "MC King Development"
+        mc_motd2: "Minecraft King Development Server."
+        geyser_mem_start: 512M
+        geyser_mem_max: 1G
         geyser_versions:
           - 1.18
           - 1.19.2
-        geyser_motd1: "MC King 2 - 2022"
-        geyser_motd2: "Explore a new world in 2022."
-        nginx_domain_name: mc-king-02-ng.gamezone.pussy-hosting.berlin
-        letsencrypt_notification_email: m.desaive@mailbox.org
-    mc-king-01-ng.gamezone.pussy-hosting.berlin:
-        ansible_become: yes
-        mc_mem_start: 4G
-        mc_mem_max: 8G
-        # mc_version: 1.19.2
-        # mc_geyser_version: 1.18
-        mc_world_name: "mc-king-01-ng"
-        mc_secure_profile: False
-        mc_motd1: "MC King 1 - 2021"
-        mc_motd2: "Our old Minecraft King upgraded to 1.19.2."
-        # mc_seed: "-466173358314074338"
-        geyser_mem_start: 2G
-        geyser_mem_max: 4G
-        geyser_versions:
-          - 1.18
-          - 1.19.2
-        geyser_motd1: "MC King 1 - 2021"
-        geyser_motd2: "Our old Minecraft King."
-        nginx_domain_name: mc-king-01-ng.gamezone.pussy-hosting.berlin
-        letsencrypt_notification_email: m.desaive@mailbox.org
-    ts-01.gamezone.pussy-hosting.berlin:
-        ansible_become: yes
-        ts_version: 3.13.7
-    an-01.gamezone.pussy-hosting.berlin:
-#   children:
-#     webservers:
-#       hosts:
-#         foo.example.com:
-#         bar.example.com:
-#     dbservers:
-#       hosts:
-#         one.example.com:
-#         two.example.com:
-#         three.example.com:
-
-
+        geyser_motd1: "MC King Development "
+        geyser_motd2: "Minecraft King Development Server."
+        nginx_domain_name: mc-dev-01.gamezone.pussy-hosting.berlin
+        letsencrypt_notification_email: s.seitz@mailbox.org
