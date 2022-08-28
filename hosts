@@ -3,7 +3,7 @@ all:
     mc-king-02-ng.gamezone.pussy-hosting.berlin:
         ansible_become: yes
         mc_mem_start: 4G
-        mc_mem_max: 12G
+        mc_mem_max: 8G
         # mc_version: 1.19.2
         # mc_geyser_version: 1.18
         mc_world_name: "mc-king-02-ng"
@@ -12,10 +12,10 @@ all:
         mc_motd2: "Explore a new world in 2022."
         mc_seed: "-6236200118392047259"
         geyser_mem_start: 2G
-        geyser_mem_max: 6G
+        geyser_mem_max: 4G
         geyser_versions:
           - 1.18
-          - 1.19
+          - 1.19.2
         geyser_motd1: "MC King 2 - 2022"
         geyser_motd2: "Explore a new world in 2022."
         nginx_domain_name: mc-king-02-ng.gamezone.pussy-hosting.berlin
@@ -23,7 +23,7 @@ all:
     mc-king-01-ng.gamezone.pussy-hosting.berlin:
         ansible_become: yes
         mc_mem_start: 4G
-        mc_mem_max: 12G
+        mc_mem_max: 8G
         # mc_version: 1.19.2
         # mc_geyser_version: 1.18
         mc_world_name: "mc-king-01-ng"
@@ -32,10 +32,10 @@ all:
         mc_motd2: "Our old Minecraft King upgraded to 1.19.2."
         # mc_seed: "-466173358314074338"
         geyser_mem_start: 2G
-        geyser_mem_max: 6G
+        geyser_mem_max: 4G
         geyser_versions:
           - 1.18
-          - 1.19
+          - 1.19.2
         geyser_motd1: "MC King 1 - 2021"
         geyser_motd2: "Our old Minecraft King."
         nginx_domain_name: mc-king-01-ng.gamezone.pussy-hosting.berlin
