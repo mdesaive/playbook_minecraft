@@ -1,17 +1,17 @@
 all:
   hosts:
-    mc-dev-01.gamezone.pussy-hosting.berlin:
+    mc-dev-01.v6-400.ber1.pussy-hosting.berlin:
         ansible_become: yes
-        mc_mem_start: 512M
-        mc_mem_max: 2G
+        mc_mem_start: 4G
+        mc_mem_max: 4G
         # mc_version: 1.19.2
         # mc_geyser_version: 1.18
         mc_world_name: "mc-dev-01"
         mc_secure_profile: False
         mc_motd1: "MC King Development"
         mc_motd2: "Minecraft King Development Server."
-        geyser_mem_start: 512M
-        geyser_mem_max: 1G
+        geyser_mem_start: 2G
+        geyser_mem_max: 2G
         geyser_versions:
           - 1.18
           - 1.19.2
