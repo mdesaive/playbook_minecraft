@@ -3,10 +3,10 @@
 	url = git@github.com-mdesaive:mdesaive/role_app_minecraft.git
 [submodule "roles/role_app_nginx_letsencrypt_proxy"]
 	path = roles/role_app_nginx_letsencrypt_proxy
-	url = git@github.com:mdesaive/role_app_nginx_letsencrypt_proxy.git
+	url = git@github.com-mdesaive:mdesaive/role_app_nginx_letsencrypt_proxy.git
 [submodule "roles/role_app_geyser"]
 	path = roles/role_app_geyser
-	url = git@github.com:mdesaive/role_app_geyser.git
+	url = git@github.com-mdesaive:mdesaive/role_app_geyser.git
 [submodule "roles/role_app_bungee"]
 	path = roles/role_app_bungee
 	url = git@github.com-mdesaive:mdesaive/role_app_bungee.git
