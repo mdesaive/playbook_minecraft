@@ -1,14 +1,16 @@
 ---
 # file: site.yml
 - hosts:
-  - mc-dev-01.v6-400.ber1.pussy-hosting.berlin
+  - aws-ew1-mc-01
+  - aws-ew1-mc-02
+  #  - mc-dev-01.v6-400.ber1.pussy-hosting.berlin
     #   - mc-king-01-ng.gamezone.pussy-hosting.berlin
     #   - mc-king-02-ng.gamezone.pussy-hosting.berlin
   roles:
   - role_app_minecraft
-    #   - role_app_geyser
-#       # Need public ip for letsencrypt
-#       # - role_app_nginx_letsencrypt_proxy
+    # - role_app_geyser
+  # Need public ip for letsencrypt
+  # - role_app_nginx_letsencrypt_proxy
 # - hosts:
 #   - bc-01.v6-400.ber1.pussy-hosting.berlin
 #   roles:
