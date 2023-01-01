@@ -10,3 +10,7 @@
 [submodule "roles/role_app_bungee"]
 	path = roles/role_app_bungee
 	url = git@github.com-mdesaive:mdesaive/role_app_bungee.git
+[submodule "inventory"]
+	path = inventory
+	url = git@github.com-mdesaive:mdesaive/inventories_gamezone.git
+	branch = aws-ew1-aza
