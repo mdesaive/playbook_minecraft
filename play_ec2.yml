@@ -1,0 +1,5 @@
+---
+# file: site.yml
+- hosts: reduce_load
+  roles:
+  - role_orch_ec2
