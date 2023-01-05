@@ -1,3 +1,4 @@
 ./hosts
 ./site.yml
 ./.vault_pass
+*vault.yml*

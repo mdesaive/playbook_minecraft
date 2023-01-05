@@ -1,5 +1,5 @@
 ---
 # file: site.yml
-- hosts: reduce_load
+- hosts: localhost
   roles:
   - role_orch_ec2
